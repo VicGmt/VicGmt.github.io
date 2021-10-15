@@ -14,8 +14,15 @@ body{
   height: 100vh;
   /* overflow: hidden; */
   padding: 10px;
-  background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+  background: linear-gradient(#e66465, #9198e5);
 }
+
+.box {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
 .wrapper{
   background: #fff;
   max-width: 400px;
